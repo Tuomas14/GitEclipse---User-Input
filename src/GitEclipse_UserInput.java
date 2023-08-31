@@ -7,18 +7,15 @@ public class GitEclipse_UserInput {
 	Scanner in = new Scanner(System.in);
 
 	String answer;
+	int age;
 	
 	System.out.println("What is your name?");
 	answer = in.nextLine();
 	
+	System.out.println("How old are you?");
+	age = Integer.parseInt(in.nextLine());
 	
-	if (answer.isEmpty())
-	{
-		System.out.println("Error");
-	} else {
-		System.out.println("Your name is " + answer + ".");
-		}
-		
+	System.out.println("Your name is " + answer + " and you are " + age + " years old.");
 		
 	}
 
