@@ -6,17 +6,21 @@ public class GitEclipse_UserInput {
 
 	Scanner in = new Scanner(System.in);
 
-	String answer;
-	int age;
+	int answer1;
+	int answer2;
+	int sum;
 	
-	System.out.println("What is your name?");
-	answer = in.nextLine();
+	System.out.println("First number?");
+	answer1 = Integer.parseInt(in.nextLine());	
 	
-	System.out.println("How old are you?");
-	age = Integer.parseInt(in.nextLine());
+	System.out.println("Second number?");
+	answer2 = Integer.parseInt(in.nextLine());
 	
-	System.out.println("Your name is " + answer + " and you are " + age + " years old.");
-		
+	sum = answer1 + answer2;
+	
+	System.out.println("The sum is " + sum + ".");
+	
+	
 	}
 
 }
