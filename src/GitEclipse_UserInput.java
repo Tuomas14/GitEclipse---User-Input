@@ -18,8 +18,7 @@ public class GitEclipse_UserInput {
 	
 	sum = answer1 + answer2;
 	
-	System.out.println("The sum is " + sum + ".");
-	
+	System.out.println(answer1 + " + " + answer2 + " = " + sum);
 	
 	}
 
