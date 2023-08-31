@@ -10,12 +10,14 @@ public class GitEclipse_UserInput {
 	
 	System.out.println("What is your name?");
 	answer = in.nextLine();
-		
-	System.out.println("Your name is " + answer + ".");
-		
-		
-		
-		
+	
+	
+	if (answer.isEmpty())
+	{
+		System.out.println("Error");
+	} else {
+		System.out.println("Your name is " + answer + ".");
+		}
 		
 		
 	}
